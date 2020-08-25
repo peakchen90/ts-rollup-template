@@ -1,16 +1,16 @@
 {
-  "name": "html-parser",
+  "name": "ts-rollup-template",
   "version": "0.0.1-alpha.0",
   "main": "index.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c"
   },
-  "homepage": "https://github.com/peakchen90/html-parser",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/peakchen90/html-parser/issues"
+    "url": ""
   },
-  "repository": "git@github.com:peakchen90/html-parser.git",
+  "repository": "",
   "author": "peakchen90 <1558267774@qq.com>",
   "license": "MIT",
   "files": [
