@@ -27,6 +27,10 @@ module.exports = {
     'prefer-template': 'error',
     'eqeqeq': 'off',
     'no-eq-null': 'off',
-    'semi': 'error'
+    'semi': 'error',
+    'max-params': 'off',
+    'no-return-assign': 'off',
+    'no-undef': 'off',
+    'one-var': 'off'
   }
 };
