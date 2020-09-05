@@ -1,8 +1,7 @@
 module.exports = {
   extends: [
-    // 'alloy',
-    // 'alloy/typescript',
-    'plugin:@typescript-eslint/recommended',
+    'alloy',
+    'alloy/typescript'
   ],
   env: {
     browser: true,

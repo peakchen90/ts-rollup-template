@@ -2,6 +2,7 @@
   "name": "ts-rollup-template",
   "version": "0.0.1-alpha.0",
   "main": "index.js",
+  "module": "",
   "scripts": {
     "start": "rollup -c -w",
     "build": "rollup -c"
@@ -20,6 +21,17 @@
     "README.md",
     "LICENSE"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "jest": {
     "verbose": true,
     "transform": {
